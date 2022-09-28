@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+
+  <a class="navbar-brand" href="Homepage.html"><img src="E2+Logo+lg.opener.jpg" width="30" height="30" class="d-inline-block align-top"> Electronics Express</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+  	<!--<div class="navbar-collapse collapse show" id="navbarNav" style>-->
+    <ul class="navbar-nav container">
+      <li class="nav-item active">
+        <a class="nav-link" href="Homepage.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Articles.html">Articles</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="">Review</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="#footer">Location & hours of service</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Shopping.html"><img src="black_shoppictcart_1484336526-1.png" width="30" height="25" class="d-inline-block align-top" alt="" style="background-color: white"> Cart</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="C:\Users\DELL\Desktop\Mardiyath_proj\about.html">About</a>
+      </li>
+      <!--<li class="nav-item active">
+      	<a class="btn btn-outline-primary" href="SignUp.php">Sign up <i class="fa fa-user"></i></a>
+      </li>-->
+
+      <li class="nav-item active">
+        <a class="btn btn-outline-primary" href="">Login <i class="fa fa-user"></i></a>
+      </li>
+    
+    </ul>
+  </div>
+</nav>
+	</header>
+
+<div class="container">
+  <h1>Special Deal Of The Day</h1>
+  <div class="row">
+    <div class="col-lg-4 col-sm-4" id="menu1">
+      <img src="E2-1.jpg" class="img-thumbnail resise">
+      <p>Protected Services <hr><a href="#" class="btn btn-info">Placer la commande</a> <a href="#" class="btn btn-primary"> Ajouter dans Panier</a></p>
+    </div>
+    <div class="col-lg-4 col-sm-4" id="menu2">
+      <img src="E2-6.jpg" class="img-thumbnail resise">
+      <p>Protected Services <hr><a href="#" class="btn btn-info">Placer la commande</a> <a href="#" class="btn btn-primary"> Ajouter dans Panier</a></p>
+    </div>
+    <div class="col-lg-4 col-sm-4" id="menu3">
+      <img src="E2-5.jpg" class="img-thumbnail resise">
+      <p>Protected Services <hr><a href="#" class="btn btn-info">Placer la commande</a> <a href="#" class="btn btn-primary"> Ajouter dans Panier</a></p>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <h1>Special Deal Of The Week</h1>
+    <div class="row">
+    <div class="col-lg-4 col-sm-4" id="menu1">
+      <img src="E2-2.jpg" class="img-thumbnail resise">
+      <p>Protected Services <hr><a href="#" class="btn btn-info">Placer la commande</a> <a href="#" class="btn btn-primary" id="test" > Ajouter dans Panier</a></p>
+    </div>
+    <div class="col-lg-4 col-sm-4" id="menu2">
+      <img src="E2-3.jpg" class="img-thumbnail resise">
+      <p>Protected Services <hr><a href="#" class="btn btn-info">Placer la commande</a> <a href="#" class="btn btn-primary"> Ajouter dans Panier</a></p>
+    </div>
+    <div class="col-lg-4 col-sm-4" id="menu3">
+      <img src="E2-4.jpg" class="img-thumbnail resise">
+      <p>Protected Services <hr><a href="#" class="btn btn-info">Placer la commande</a> <a href="#" class="btn btn-primary"> Ajouter dans Panier</a></p>
+    </div>
+    </div>
+    </div>
+
+  
+</body>
+
+<div class="footer">
+
+  <div class="row" id="break">
+    <div class="col-lg-4 col-sm-4 col-xs-4">
+      <h3>Actualite</h3>
+        <hr>
+    </div>
+
+    <div class="col-lg-4 col-sm-4 col-xs-4" id="corner">
+    <h3>Location</h3>
+    <hr>
+    <b>Lome, Togo</b><br><br>
+    <p><strong>CONTACT</strong></p>
+    <hr>
+    (+228) 93-49-49-83 <br><br>
+    (+228) 90-03-47-75 <br><br><br>
+    </div> 
+    <div class="col-lg-4 col-sm-4 col-xs-4">
+      <h3>Hours Of Operation</h3>
+        <hr>
+             <span id="date"> 
+          Lundi-Mercredi: 8h-17h <br>
+          Jeudi-Vendredi: 10h-16h <br>
+          Samedi-Dimanche: 07h-18h <br>
+      </span>
+    </div>
+ </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

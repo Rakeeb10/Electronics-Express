@@ -1,0 +1,48 @@
+header {
+	/*margin-bottom: 5%;*/
+}
+body {
+	margin: 2% 2%;
+	margin-bottom: 0%;
+	overflow: auto;
+}
+html {
+	height: 100%;
+}
+/*.footer {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	bottom: -500px;
+	overflow: auto;
+	margin-top: 20%;
+
+}*/
+.navbar-light .navbar-brand {
+    color: white;
+}
+.nav-link:hover{
+	background-color: Gray; 
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+	color: white;
+}
+.img-thumbnail{
+	width: 500px;
+}
+.resise {
+    height: 300px;
+}
+#break{
+	margin-bottom: 100px;
+}
+.adjust{
+	margin-right: 10px;
+    text-align: center;
+    height: 70px;
+}
+#view {
+	margin:  50px 205px  20px 205px;
+	padding: 0px;
+	  }

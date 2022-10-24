@@ -46,3 +46,40 @@ html {
 	margin:  50px 205px  20px 205px;
 	padding: 0px;
 	  }
+.navHeight{
+	margin-top: 7%;
+}
+.description{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.p-image { float: left; width: 20%; text-align: center;}
+    .image {
+      width: 100px;
+      }
+.p-description { float: left; width: 37%;} 
+.p-title{
+	margin-right: 20px;
+}
+.p-desc{
+ margin: 5px 20px 5px 0;
+      line-height: 1.4em;}
+
+.p-price { float: left; width: 12%;}
+
+.p-quantity {float: left; width: 10%;}
+.p-quantity input {
+      width: 40px;
+    }  
+    
+ 
+.p-remove { float: left; width: 9%;}
+.remove-p {
+    border: 0;
+    padding: 4px 8px;
+    background-color: #c66;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+.p-total { float: left; width: 12%; text-align: right; }

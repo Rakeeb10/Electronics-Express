@@ -118,3 +118,89 @@ html {
 .checkout:hover {
   background-color: #494;
 }
+/*Dollar sign on prices*/
+.product .p-price:before, .product .p-total:before, .totals-value:before {
+  content: '$';
+}
+
+/* Make adjustments for tablet */
+@media screen and (max-width: 650px) {
+  
+  .description {
+    margin: 0;
+    padding-top: 20px;
+    border-top: 1px solid $color-border;
+  }
+  
+  .p-image {
+    float: right;
+    width: auto;
+    img {
+      margin: 0 0 10px 10px;
+    }
+  }
+  
+  .p-description {
+    float: none;
+    margin-bottom: 10px;
+    width: auto;
+  }
+  
+  .p-price {
+    clear: both;
+    width: 70px;
+  }
+  
+  .p-quantity {
+    width: 100px;
+    input {
+      margin-left: 20px;
+    }
+  }
+  
+  .p-quantity:before {
+    content: 'x';
+  }
+  
+  .p-remove {
+    width: auto;
+  }
+  
+  .p-total {
+    float: right;
+    width: 70px;
+  }
+  
+}
+
+
+/* Make more adjustments for phone */
+@media screen and (max-width: 350px) {
+  
+  .p-remove {
+    float: right;
+  }
+  
+  .p-total {
+    float: right;
+    clear: left;
+    width: auto;
+    margin-top: 10px;
+  }
+  
+  .product .p-total:before {
+    content: 'Item Total: $';
+  }
+  
+  .totals {
+    .totals-item {
+      label {
+        width: 60%;
+      }
+      
+      .totals-value {
+        width: 40%;
+      }
+    }
+  }
+}
